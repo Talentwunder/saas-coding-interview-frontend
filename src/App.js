@@ -1,8 +1,8 @@
 import React from 'react';
 import { Provider } from 'react-redux';
-import { Container, Typography } from '@material-ui/core';
 import store from './state/store';
 import NewsList from './components/NewsList';
+import { Container, Typography } from '@mui/material';
 // import { Task2 } from './Task2';
 
 function App() {
